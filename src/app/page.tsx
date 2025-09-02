@@ -76,7 +76,7 @@ export default function Home() {
             </p>
           </div>
           <p className="text-slate-300 text-sm leading-relaxed px-2 font-medium max-w-sm mx-auto">
-          💡PerformanceTech – Tecnologia & Crescimento ⛽Auto Posto Performance | 🏪 Villa Performance<br className="sm:hidden" /> 🚀Negócios fortes. Resultados reais
+          💡PerformanceTech – Tecnologia & Crescimento<br></br>⛽Auto Posto Performance<br></br>🏪 Villa Performance<br></br>🚀 Negócios fortes. Resultados reais.
           </p>
         </div>
 

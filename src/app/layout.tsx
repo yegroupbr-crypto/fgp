@@ -6,7 +6,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Junior Gualbertto - Consultoria Imobiliária',
+  title: 'FGP - Força · Gestão · Performance',
   description: 'Seu link na bio personalizado',
 };
 
