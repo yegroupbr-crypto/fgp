@@ -14,11 +14,11 @@ import React from 'react';
 
 export default function Home() {
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/5561998166292', '_blank');
+    window.open('https://wa.me/557488021709', '_blank');
   };
 
   const handleInstagramClick = () => {
-    window.open('https://instagram.com/juniorgualbertto_', '_blank');
+    window.open('https://www.instagram.com/fernandopimentel.fgp/', '_blank');
   };
 
   const handleWebsiteClick = () => {
@@ -27,7 +27,7 @@ export default function Home() {
 
   const handleMapClick = () => {
     window.open(
-      'https://maps.google.com/?q=Conect+Towers+QS+01,+sala+639+Águas+Claras+Brasília+DF',
+      'https://maps.google.com/?q=Remanso, BA, 47200-000',
       '_blank'
     );
   };
@@ -52,7 +52,7 @@ export default function Home() {
           <div className="relative inline-block mb-10 transition-transform duration-300 hover:scale-105">
             <div className="w-32 h-32 bg-gradient-to-br from-blue-800 via-slate-800 to-amber-800 rounded-2xl flex items-center justify-center shadow-2xl border border-white/10 backdrop-blur-sm overflow-hidden">
               <Image
-                src="https://i.ibb.co/yBqQyLx5/profile.jpg"
+                src="https://i.ibb.co/wms0n0s/file-1.jpg"
                 width={128}
                 height={128}
                 alt="Foto do Perfil"
@@ -66,16 +66,16 @@ export default function Home() {
           </div>
 
           <h1 className="text-3xl font-black text-white mb-4 tracking-tight">
-            Junior Gualbertto
+            FGP
           </h1>
           <div className="inline-flex items-center gap-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl px-6 py-3 mb-8">
             <Briefcase size={22} className="text-amber-400" />
             <p className="text-base font-semibold text-slate-200">
-              Consultor especializado em financiamento e consórcio de imóveis
+              Força · Gestão · Performance
             </p>
           </div>
           <p className="text-slate-300 text-sm leading-relaxed px-2 font-medium max-w-sm mx-auto">
-            Encontre o financiamento e consórcio ideal <br className="sm:hidden" /> para seu imóvel. São mais de 40 bancos com alternativas exclusivas. Simule já pelo WhatsApp&nbsp;📲
+          💡PerformanceTech – Tecnologia & Crescimento ⛽Auto Posto Performance | 🏪 Villa Performance<br className="sm:hidden" /> 🚀Negócios fortes. Resultados reais
           </p>
         </div>
 
@@ -97,7 +97,7 @@ export default function Home() {
               <div className="text-left">
                 <div className="text-lg font-bold">WhatsApp</div>
                 <div className="text-sm opacity-90 font-medium">
-                  +55 61 99816-6292
+                  +55 74 8802-1709
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@ export default function Home() {
               <div className="text-left">
                 <div className="text-lg font-bold">Instagram</div>
                 <div className="text-sm opacity-90 font-medium">
-                  @juniorgualbertto_
+                  @fernandopimentel.fgp
                 </div>
               </div>
             </div>
@@ -162,10 +162,10 @@ export default function Home() {
             </div>
             <div className="flex-1">
               <div className="font-bold text-white text-base mb-1">
-                Escritório
+                Endereço
               </div>
               <div className="text-slate-300 font-medium text-sm leading-relaxed">
-                Conect Towers QS 01, sala 639, Águas Claras - Brasília/DF
+                Remanso, BA, 47200-000
               </div>
               <div className="text-xs text-amber-400 mt-2 font-semibold group-hover:text-amber-300 transition-colors duration-300 group-hover:translate-x-1">
                 Ver no mapa →
@@ -181,7 +181,7 @@ export default function Home() {
             <div>
               <div className="font-bold text-white text-base">Telefone</div>
               <div className="text-slate-300 font-medium text-sm">
-                +55 61 99816-6292
+                +55 74 8802-1709
               </div>
             </div>
           </div>
@@ -193,7 +193,7 @@ export default function Home() {
           className="text-center text-slate-400 font-medium animate-fade-in-up"
         >
           <p className="text-xs">
-            © 2025 Junior Gualbertto - Consultoria Imobiliária
+            © 2025 FGP
           </p>
         </div>
       </div>
