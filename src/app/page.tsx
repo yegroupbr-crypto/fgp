@@ -33,11 +33,11 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-950 to-amber-950 relative font-sans overflow-x-hidden">
+    <div className="min-h-screen bg-gradient-to-l from-[#f9b037] to-[#343434] relative font-sans overflow-x-hidden">
       {/* Sophisticated Background Pattern */}
-      <div className="absolute inset-0 bg-gradient-to-tr from-blue-950/80 via-slate-900/60 to-amber-900/80"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(59,130,246,0.08),transparent_50%)]"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,rgba(180,83,9,0.08),transparent_50%)]"></div>
+      <div className="absolute inset-0 bg-gradient-to-tr from-yellow-700/80 via-gray-800/60 to-gray-900/80"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(249,176,55,0.1),transparent_50%)]"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,rgba(52,52,52,0.1),transparent_50%)]"></div>
 
       {/* Subtle Grid Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:32px_32px]"></div>
@@ -50,7 +50,7 @@ export default function Home() {
           className="text-center mb-12 animate-fade-in-up"
         >
           <div className="relative inline-block mb-10 transition-transform duration-300 hover:scale-105">
-            <div className="w-32 h-32 bg-gradient-to-br from-blue-800 via-slate-800 to-amber-800 rounded-2xl flex items-center justify-center shadow-2xl border border-white/10 backdrop-blur-sm overflow-hidden">
+            <div className="w-32 h-32 bg-gradient-to-br from-yellow-600 via-gray-700 to-gray-800 rounded-2xl flex items-center justify-center shadow-2xl border border-white/10 backdrop-blur-sm overflow-hidden">
               <Image
                 src="https://i.ibb.co/wms0n0s/file-1.jpg"
                 width={128}
@@ -58,6 +58,7 @@ export default function Home() {
                 alt="Foto do Perfil"
                 className="object-cover"
                 data-ai-hint="profile picture"
+                priority
               />
             </div>
             <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-gradient-to-br from-emerald-500 to-emerald-700 rounded-xl border-3 border-slate-900 flex items-center justify-center">
@@ -69,7 +70,7 @@ export default function Home() {
             FGP
           </h1>
           <div className="inline-flex items-center gap-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl px-6 py-3 mb-8">
-            <Briefcase size={22} className="text-amber-400" />
+            <Briefcase size={22} className="text-yellow-400" />
             <p className="text-base font-semibold text-slate-200">
               Força · Gestão · Performance
             </p>
@@ -167,7 +168,7 @@ export default function Home() {
               <div className="text-slate-300 font-medium text-sm leading-relaxed">
                 Remanso, BA, 47200-000
               </div>
-              <div className="text-xs text-amber-400 mt-2 font-semibold group-hover:text-amber-300 transition-colors duration-300 group-hover:translate-x-1">
+              <div className="text-xs text-yellow-400 mt-2 font-semibold group-hover:text-yellow-300 transition-colors duration-300 group-hover:translate-x-1">
                 Ver no mapa →
               </div>
             </div>
@@ -175,7 +176,7 @@ export default function Home() {
 
           {/* Phone */}
           <div className="p-6 rounded-xl bg-white/5 flex items-center gap-4 border border-white/10">
-            <div className="p-3 bg-gradient-to-br from-amber-600 to-amber-700 rounded-xl">
+            <div className="p-3 bg-gradient-to-br from-yellow-600 to-yellow-700 rounded-xl">
               <Phone size={20} className="text-white" />
             </div>
             <div>
@@ -193,7 +194,7 @@ export default function Home() {
           className="text-center text-slate-400 font-medium animate-fade-in-up"
         >
           <p className="text-xs">
-            © 2025 FGP
+            © 2025 FGP - Mais que uma sigla, um padrão de excelência
           </p>
         </div>
       </div>
